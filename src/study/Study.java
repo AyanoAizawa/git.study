@@ -41,21 +41,21 @@ import java.util.stream.IntStream;
 			} else if (n == 0) {
 				System.out.println("0なら偽");
 			} else {
-				System.out.println("  ");
+				System.out.println("1か0指定");
 			}
 			
 			
 			System.out.println("--------------------------");
-			try {
+			
 				Map<Integer, String> citrus = new HashMap<>();
-
+            try {
 				citrus.put(1, "Lemon");
 				citrus.put(2, "Orange");
 				citrus.put(3, "Grapefuruit");
 				citrus.put(5, "Buntan");
 
 				System.out.println(citrus.get(2));
-				System.out.println(citrus.get(8));
+				System.out.println(citrus.get(5));
 			} catch (Exception e) {
 				System.out.println("エラーです");
 			}
